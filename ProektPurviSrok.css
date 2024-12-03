@@ -2,10 +2,12 @@
     margin: 0;
     font-family: Arial, sans-serif;
 }
-hr{
-    width:80%;
-    color:lightgray;
+
+hr {
+    width: 80%;
+    color: lightgray;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -299,7 +301,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    margin-top:10%;
+    margin-top: 10%;
 }
 
 .footer-column {
@@ -375,7 +377,7 @@ button:hover {
     background-color: #fff;
     box-sizing: border-box;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    margin:0 5%;
+    margin: 0 5%;
 }
 
 .category {
@@ -423,13 +425,14 @@ button:hover {
         color: #fff;
         padding: 5px 10px;
         border-radius: 20px;
-        margin-left:5px;
+        margin-left: 5px;
     }
 
 .category:hover .label {
     background: goldenrod;
     transform: scale(1.05);
 }
+
 .AllProducts-catalog {
     display: flex;
     flex-wrap: wrap;
@@ -501,14 +504,15 @@ button:hover {
     .AllProducts-add-to-cart:hover {
         background: #218838;
     }
+
 .allProducts-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    font-size:14px;
-    margin:5%;
-    margin-bottom:0;
+    font-size: 14px;
+    margin: 5%;
+    margin-bottom: 0;
 }
 
 .allProducts-price-filter {
@@ -565,4 +569,139 @@ button:hover {
     border-radius: 4px;
     background-color: #fff;
 }
+/*Catering*/
+.Catering-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
 
+.Catering-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Catering-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(70%);
+}
+
+.Catering-text {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.Catering-container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff8e1;
+}
+
+.Catering-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.Catering-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Catering-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.Catering-card-icon {
+    font-size: 3rem;
+    color: #d72638;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Catering-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Catering-card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.Catering-container3 {
+    max-width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Catering-image {
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+    .Catering-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.Catering-info {
+    max-width: 400px;
+}
+
+    .Catering-info h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .Catering-info p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .Catering-info .Catering-phone {
+        font-weight: bold;
+        color: #d72638;
+        font-size: 1.1rem;
+    }
+
+.Catering-phone a {
+    color: goldenrod;
+    text-decoration: none
+}
+.Catering-phone a:hover{
+    text-decoration:underline;
+}
