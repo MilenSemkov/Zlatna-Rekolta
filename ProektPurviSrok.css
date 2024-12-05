@@ -198,7 +198,7 @@ button {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    max-width: 1200px;
+
     margin: 2%;
     justify-content: center;
 }
@@ -702,6 +702,108 @@ button:hover {
     color: goldenrod;
     text-decoration: none
 }
-.Catering-phone a:hover{
+
+    .Catering-phone a:hover {
+        text-decoration: underline;
+    }
+#h-for-contacts{
+    color:goldenrod;
+}
+.contact-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.contact-form-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.contact-info-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.contact-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-input, .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-textarea {
+    resize: none;
+}
+
+.contact-info-container a {
+    color: goldenrod;
+    text-decoration: none
+}
+.contact-info-container a:hover {
+
     text-decoration:underline;
+}
+.contact-button-send {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+
+    .contact-button-send:hover {
+        background-color: #c9302c;
+    }
+
+.location-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.location-map {
+    width: 100%;
+    max-width: 100%;
+    height: 750px;
+    border: 0;
+    filter: brightness(80%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
