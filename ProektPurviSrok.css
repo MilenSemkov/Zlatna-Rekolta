@@ -89,6 +89,42 @@ button {
     .logo img {
         height: 70px;
     }
+.FixedButton {
+    position: fixed;
+    top: 14%; 
+    right: 4%;
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.FixedButton-icon {
+    position: relative;
+    font-size: 30px;
+    color: black;
+}
+
+.FixedButton-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
 
 .slider {
@@ -807,3 +843,118 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.About-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 2% 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:8px;
+}
+
+.About-text {
+    max-width: 70%;
+}
+
+.About-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+    .About-title span {
+        color: goldenrod;
+    }
+
+.About-list {
+    font-size: 18px;
+    line-height: 1.8;
+    list-style-type:none;
+}
+
+    .About-list li {
+        margin-bottom: 10px;
+    }
+
+.About-image {
+    max-width: 30%;
+}
+    .About-image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+.About-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 2% 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.About-text2 {
+    max-width: 70%;
+
+}
+
+.About-title2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align:start;
+    margin-left:6%;
+}
+.About-list2 {
+    font-size: 18px;
+    line-height: 1.8;
+    list-style-type: none;
+}
+
+    .About-list2 li {
+        margin-bottom: 10px;
+    }
+
+.About-image2 {
+    max-width: 40%;
+    
+}
+
+    .About-image2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+.Cart-container {
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:10%;
+}
+
+.Cart-icon {
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    margin: 0 auto 20px;
+}
+
+.Cart-message {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Cart-Over-Footer {
+    text-align: center;
+}
+.Cart-Over-Footer a{
+    text-decoration:none;
+    color:goldenrod;
+}
+    .Cart-Over-Footer a:hover{
+        text-decoration:underline;
+    }
